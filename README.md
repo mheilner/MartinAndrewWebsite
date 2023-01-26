@@ -17,7 +17,7 @@ Do you ever feel overwhelmed with the prospect of careers and what follows an al
 
 
 Key Features
--Section for submission of articles/blog/postd from people with industry experience and skill '\n'
+-Section for submission of articles/blog/postd from people with industry experience and skill
 -Interviews/Podcasts with similar individuals
 -platform for skill assistance with mentors 
 -multiple page interface
