@@ -12,3 +12,9 @@ I am really excited about this HW because many times have I worked on github but
 
 Startup Design 1/26/2023
 Do you ever feel overwhelmed with the prospect of careers and what follows an already stressful set of years making up your undergrad? We all hear that opportunities abound, but where do you even start? Martin Andrew & Co is your launch pad for a career into carving out the career of you are seeking. Our firm offers educational and informational services to students and career changers.  Our services focus on career development and career ideation esecially in the fields of finance and technology. With our help, you can move forward with confidence in your career.
+
+Key Features
+-Section for submission of articles/blog/postd from people with industry experience and skill
+-Interviews/Podcasts with similar individuals
+-platform for skill assistance with mentors 
+-multiple page interface
