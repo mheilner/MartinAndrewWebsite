@@ -21,3 +21,9 @@ Key Features
 -Interviews/Podcasts with similar individuals
 -platform for skill assistance with mentors 
 -multiple page interface
+
+AWS EC2
+Server IP: http://18.224.198.116/
+I have a pem file with this
+Here is the ssh command: --  ssh -i C:\Users\markh\Downloads\[pem] ubuntu@[ip]
+
