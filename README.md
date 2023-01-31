@@ -27,3 +27,6 @@ Server IP: http://18.224.198.116/
 I have a pem file with this
 Here is the ssh command: --  ssh -i C:\Users\markh\Downloads\[pem] ubuntu@[ip]
 
+AWS Route 53
+http://martinandrew.org
+This is the DNS used for my IP above. I thought it was really interesting being able to map the subdomains to the website. It makes sense that there are many user errors and being able to adapt the route 53 to compensate for this with subdomains makes it ver helpful. I am excited to keep learning more about this.
