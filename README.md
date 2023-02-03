@@ -30,3 +30,7 @@ Here is the ssh command: --  ssh -i C:\Users\markh\Downloads\[pem] ubuntu@[ip]
 AWS Route 53
 http://martinandrew.org
 This is the DNS used for my IP above. I thought it was really interesting being able to map the subdomains to the website. It makes sense that there are many user errors and being able to adapt the route 53 to compensate for this with subdomains makes it ver helpful. I am excited to keep learning more about this.
+
+HTTPS/Web Certificates HW
+For this assignment, we had to update the website security by chaning the vim caddyfile in the ssh to the website domainname - martinandrew.org. This secures the network. I was shocked that this was so expensive before 2014 for even the smaller companies. I think this is a cool thing that it is much more accessible the website security. 
+
