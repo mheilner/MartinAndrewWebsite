@@ -42,3 +42,7 @@ https://codepen.io/mheilner/pen/ZEjPjMV This is my codepen fork that I made for 
 HTML Structure
 https://www.w3schools.com/html/html_blocks.asp (good info for understanding the tags)
 https://codepen.io/mheilner/pen/JjBzBzo
+
+HTML input
+https://github.com/webprogramming260/.github/blob/main/profile/html/input/input.md
+This is info for input
