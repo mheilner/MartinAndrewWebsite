@@ -46,3 +46,6 @@ https://codepen.io/mheilner/pen/JjBzBzo
 HTML input
 https://github.com/webprogramming260/.github/blob/main/profile/html/input/input.md
 This is info for input
+
+HTML Media
+https://github.com/webprogramming260/.github/blob/main/profile/html/media/media.md
