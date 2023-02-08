@@ -34,18 +34,19 @@ This is the DNS used for my IP above. I thought it was really interesting being 
 HTTPS/Web Certificates HW
 For this assignment, we had to update the website security by chaning the vim caddyfile in the ssh to the website domainname - martinandrew.org. This secures the network. I was shocked that this was so expensive before 2014 for even the smaller companies. I think this is a cool thing that it is much more accessible the website security.
 
-HMTL Intro
+HMTL Links:
+Intro: https://codepen.io/mheilner/pen/ZEjPjMV This is my codepen fork that I made for this assignment.
 https://github.com/webprogramming260/.github/blob/main/profile/html/introduction/introduction.md
 That is the link to the HTML intro. It explores a couple of the essential basic points of HTML and how to use it for the best experieence.
-https://codepen.io/mheilner/pen/ZEjPjMV This is my codepen fork that I made for this assignment.
-
 HTML Structure
 https://www.w3schools.com/html/html_blocks.asp (good info for understanding the tags)
 https://codepen.io/mheilner/pen/JjBzBzo
-
 HTML input
 https://github.com/webprogramming260/.github/blob/main/profile/html/input/input.md
 This is info for input
-
 HTML Media
 https://github.com/webprogramming260/.github/blob/main/profile/html/media/media.md
+
+
+SIMON HTML - simon.martinandrew.org
+So this was a really great learning experience for the fact that I had issues is my Caddfile in the AWS terminal. I hadn't changed over the name for my subdomain so it made it kind of challenging for me to find out how to get my simon.domain to go live. I think that the most important part of this assignment was learning that. Aside from that I would say that learning all the new tag names was helpful
