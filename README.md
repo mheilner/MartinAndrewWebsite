@@ -50,3 +50,7 @@ https://github.com/webprogramming260/.github/blob/main/profile/html/media/media.
 
 SIMON HTML - simon.martinandrew.org
 So this was a really great learning experience for the fact that I had issues is my Caddfile in the AWS terminal. I hadn't changed over the name for my subdomain so it made it kind of challenging for me to find out how to get my simon.domain to go live. I think that the most important part of this assignment was learning that. Aside from that I would say that learning all the new tag names was helpful
+
+CSS PRACTICE
+https://codepen.io/mheilner/pen/GRXRKoq?editors=1100
+This assignment was cool because it brought to life what webdev can do. I think that animation makes things so much more interesting when interacting with a website so this will be awesome to use for a website.
