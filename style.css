@@ -30,8 +30,47 @@
   .about-section p {
     font-size: 20px;
     color: #dee2e6;
-
   }
+
+  /* Contact Section */
+  .contact-section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+  }
+  /* Contect Containers */
+    .container,
+    .container-fluid,
+    .container-xxl,
+    .container-xl,
+    .container-lg,
+    .container-md,
+    .container-sm {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+    }
+
+/* Social Media     */
+.social {
+    margin-top: 5rem;
+  }
+.social a {
+    text-align: center;
+    height: 3rem;
+    width: 3rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 100%;
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 0.3);
+.mx-2 {
+    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
+    }
+.d-md-flex {
+    display: flex !important;
+    }    
   
   html {
     margin: 2rem;
