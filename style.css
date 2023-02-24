@@ -1,0 +1,27 @@
+/* .header {
+  padding: 30px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+  font-size: 30px;
+} */
+* {
+    box-sizing: border-box;
+  }
+  
+  html {
+    margin: 2rem;
+  }
+  
+  .demo-box {
+    margin: 1rem 0;
+    border: thin solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 1rem;
+  }
+  
+  .card > img {
+    height: 200px;
+    background: gray;
+  }
+  
