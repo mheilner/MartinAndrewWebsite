@@ -59,3 +59,7 @@ This assignment was cool because it brought to life what webdev can do. I think 
 
 STARTUP APP
 https://getbootstrap.com/
+
+
+DEPLOY ISSUE
+I was having trouble running the deployFile.sh but it was because I had to change the permissions - chmod 777 deploy...
