@@ -57,9 +57,9 @@ This assignment was cool because it brought to life what webdev can do. I think 
 
 
 
-STARTUP APP
+STARTUP PROJECT 2/24
 https://getbootstrap.com/
-
-
 DEPLOY ISSUE
 I was having trouble running the deployFile.sh but it was because I had to change the permissions - chmod 777 deploy...
+
+What I learned: it is super useful to understand how to work with CSS and HTML and using some bootstrap. I think the best thing that I learned was that you can make sub-tags within sections that you make. For example you can have a p tag be different depending on the main section. That is cool.
