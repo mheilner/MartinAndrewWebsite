@@ -54,3 +54,8 @@ So this was a really great learning experience for the fact that I had issues is
 CSS PRACTICE
 https://codepen.io/mheilner/pen/GRXRKoq?editors=1100
 This assignment was cool because it brought to life what webdev can do. I think that animation makes things so much more interesting when interacting with a website so this will be awesome to use for a website.
+
+
+
+STARTUP APP
+https://getbootstrap.com/

@@ -8,6 +8,25 @@
 * {
     box-sizing: border-box;
   }
+
+  /* Home Section */
+  .home {
+    position: relative;
+    width: 100%;
+    height: auto;
+    min-height: 35rem;
+    padding: 15rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url("/assets/skyline.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+  }
+  /* About Section */
+  .about-section {
+    padding-top: 10rem;
+    background: linear-gradient(to bottom, #000000 0%, rgba(0, 56, 116, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  }
   
   html {
     margin: 2rem;
@@ -25,3 +44,13 @@
     background: gray;
   }
   
+
+  /* Text Styles */
+  .big{
+    font-size: 100px;
+    color: rgb(154, 191, 218);
+  }
+  .subhead{
+    font-size: 40px;
+    color: rgb(83, 131, 166)
+  }

@@ -9,13 +9,122 @@
     <link href="https://getbootstrap.com/docs/5.1/assets/css/docs.css" rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
 </head>
-<body>
-    
-    
-    
-    
-    
-    
+<body class="--bs-body-color">
+    <header class="sticky-top">
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <h1>MartinAndrew&Co.</h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#btn">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#card">fill this</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#typography">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container-fluid">
+
+    <!-- Home Main-->
+    <header class="home">
+        <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
+            <div>
+                <div class="text-center">
+                    <h1 class="big">Martin Andrew & Co.</h1> <!--mx-auto my-0 text-uppercase-->
+                    <h3 class="subhead">Steps to your Dream Career</h3>      <!-- mx-auto mt-2 mb-5 -->
+                    <a class="btn btn-outline-primary" href="#about">Get Started</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about-section text-center" id="about">
+        <div class="container px-4 px-lg-5">
+            <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-lg-8">
+                    <h2 class="text-white mb-4">Who We Are</h2>
+                    <p class="text-white-50">
+                        
+                         
+                        <!-- Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours right now, simply download the template on
+                        <a href="https://startbootstrap.com/theme/grayscale/">the preview page.</a>
+                        The theme is open source, and you can use it for any purpose, personal or commercial. -->
+                    </p>
+                </div>
+            </div>
+            <img class="img-fluid" src="assets/img/sky.webp" alt="..." />
+        </div>
+    </section>
+
+<div id="card" class="demo-box">
+    <h1>Card</h1>
+    <div class="card" style="width:600px">
+      <!-- <img class="card-img-top" src="https://picsum.photos/600/200" /> -->
+
+      <div class="card-body">
+        <h5 class="card-title">Card title <span class="badge bg-secondary">New</span></h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consec adipiscing elit</p>
+        <a href="#" class="btn btn-primary">Details</a>
+      </div>
+    </div>
+  </div>
+
+  
+
+    <div id="typography" class="demo-box">
+      <div class="container-fluid">
+        <h2>Typography</h2>
+        <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. In eu mi bibendum neque egestas. Elit eget gravida cum sociis natoque penatibus et magnis dis.</p>
+
+        <p>In arcu cursus euismod quis viverra nibh cras. Sem nulla pharetra diam sit amet nisl suscipit adipiscing. Urna duis convallis convallis tellus id interdum velit laoreet id. Pulvinar elementum integer enim neque volutpat ac tincidunt vitae semper. Nec sagittis aliquam malesuada bibendum arcu vitae elementum. Sit amet purus gravida quis blandit turpis. Justo donec enim diam vulputate ut pharetra sit amet. Volutpat blandit aliquam etiam erat. Nec tincidunt praesent semper feugiat nibh sed pulvinar proin gravida. Varius morbi enim nunc faucibus. Amet purus gravida quis blandit turpis.</p>
+
+        <p>Sit amet justo donec enim diam. Nec dui nunc mattis enim ut tellus elementum. Sed enim ut sem viverra aliquet eget sit amet tellus. Ullamcorper velit sed ullamcorper morbi tincidunt ornare massa. Malesuada fames ac turpis egestas integer eget aliquet nibh praesent. Nec ullamcorper sit amet risus. Semper quis lectus nulla at volutpat diam. Sed felis eget velit aliquet. Purus viverra accumsan in nisl nisi scelerisque eu ultrices. Id interdum velit laoreet id donec ultrices tincidunt. Bibendum neque egestas congue quisque egestas diam in arcu cursus. Et ligula ullamcorper malesuada proin libero nunc consequat. Quam lacus suspendisse faucibus interdum posuere lorem ipsum dolor sit. Id porta nibh venenatis cras sed felis eget. Nam libero justo laoreet sit amet. Convallis posuere morbi leo urna molestie. Tincidunt ornare massa eget egestas purus viverra accumsan in nisl. Ipsum suspendisse ultrices gravida dictum fusce ut placerat. Eget duis at tellus at urna condimentum.</p>
+
+        <figure class="text-center">
+          <blockquote class="blockquote">
+            <p>Always bet on JavaScript</p>
+          </blockquote>
+          <figcaption class="blockquote-footer">
+            Brandon Eich (<cite title="Source Title">brendaneich.github.io</cite>)
+          </figcaption>
+        </figure>
+
+        <p class="text-warning">Vulputate eu scelerisque felis imperdiet proin fermentum. Netus et malesuada fames ac turpis egestas. Neque laoreet suspendisse interdum consectetur. Malesuada proin libero nunc consequat interdum. Suspendisse in est ante in nibh mauris cursus mattis molestie. Mauris commodo quis imperdiet massa tincidunt nunc. Libero volutpat sed cras ornare arcu. Egestas quis ipsum suspendisse ultrices gravida. Accumsan lacus vel facilisis volutpat est velit egestas dui. Sit amet consectetur adipiscing elit pellentesque habitant morbi tristique. Sed cras ornare arcu dui. In mollis nunc sed id semper risus in. Lacus viverra vitae congue eu consequat ac felis donec. Massa tempor nec feugiat nisl.</p>
+
+        <p class="text-dark" style="--bs-text-opacity: .5;">Volutpat commodo sed egestas egestas fringilla phasellus faucibus scelerisque. Ac turpis egestas maecenas pharetra convallis. Parturient montes nascetur ridiculus mus. Dignissim sodales ut eu sem. Tortor dignissim convallis aenean et tortor at. Aliquet bibendum enim facilisis gravida neque convallis a. Suspendisse interdum consectetur libero id faucibus nisl tincidunt eget. Feugiat nisl pretium fusce id velit ut. Adipiscing elit ut aliquam purus sit amet luctus venenatis lectus. Malesuada fames ac turpis egestas. Pulvinar proin gravida hendrerit lectus a. Sed blandit libero volutpat sed cras ornare. Eu augue ut lectus arcu. Suscipit tellus mauris a diam maecenas. Suscipit adipiscing bibendum est ultricies integer quis auctor elit. Nunc congue nisi vitae suscipit tellus mauris a. Aenean sed adipiscing diam donec adipiscing. Convallis convallis tellus id interdum velit laoreet. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non. Sed felis eget velit aliquet sagittis.</p>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="sticky-bottom">
+    <nav class="navbar bg-light">
+      <div class="container-fluid ">
+        <p class="text-muted">&copy; 2035 - Web Programming 260</p>
+      </div>
+  </footer>
+
+  
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script> -->  
     
     <!-- <div class="header">
         <div class="container text-center">
