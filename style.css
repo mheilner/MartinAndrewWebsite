@@ -25,7 +25,12 @@
   /* About Section */
   .about-section {
     padding-top: 10rem;
-    background: linear-gradient(to bottom, #000000 0%, rgba(0, 56, 116, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+    background: linear-gradient(to bottom, #000000 0%, #5a5959 75%, rgb(152, 152, 152) 100%);
+  }
+  .about-section p {
+    font-size: 20px;
+    color: #dee2e6;
+
   }
   
   html {
