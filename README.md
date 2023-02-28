@@ -70,3 +70,7 @@ Codepen JS Regex 2/24
 I liked this assignment. Regex is something that can be very useful and it is helpful to know all about the use of regex and JS.
 https://codepen.io/mheilner/pen/vYzgLpw
 https://codepen.io/mheilner/pen/yLxgeMM
+
+JS DOM
+https://codepen.io/mheilner/pen/gOdgrBx
+This was a fun assignment because this really started to show how you can use JS for HTML and CSS. Hopefully, we can do more.
