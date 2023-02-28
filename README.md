@@ -63,3 +63,6 @@ DEPLOY ISSUE
 I was having trouble running the deployFile.sh but it was because I had to change the permissions - chmod 777 deploy...
 
 What I learned: it is super useful to understand how to work with CSS and HTML and using some bootstrap. I think the best thing that I learned was that you can make sub-tags within sections that you make. For example you can have a p tag be different depending on the main section. That is cool.
+
+Codepen JS Regex 2/24
+I liked this assignment. Regex is something that can be very useful and it is helpful to know all about the use of regex and JS.
