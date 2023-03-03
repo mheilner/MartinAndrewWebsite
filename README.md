@@ -76,3 +76,6 @@ https://codepen.io/mheilner/pen/gOdgrBx
 This was a fun assignment because this really started to show how you can use JS for HTML and CSS. Hopefully, we can do more.
 JS Promises
 This is one of the more confusing things that we have learned. I hope we can learn a bit more of the specifics of making this useful. I think the cool thing is the race function that pits multiple promises against eachother.
+
+Async Await
+This one is more confusing for me. Interesting to see when the asynchronous functions are going to be used.
