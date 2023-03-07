@@ -79,3 +79,8 @@ This is one of the more confusing things that we have learned. I hope we can lea
 
 Async Await
 This one is more confusing for me. Interesting to see when the asynchronous functions are going to be used.
+
+Simon JS 
+-Integrating the document control from JS to html is very interesting. 
+-Need to have a source to the JS document to be able to reference the code in HTML 
+-No major effects on the CSS. Really JS mostly interacts in this project with HTML
