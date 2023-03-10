@@ -6,7 +6,7 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>MartinAndrew&Co</title>
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="icon" type="image/x-icon" href="assets/tx.jpeg" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
         <!-- Google fonts-->
@@ -29,11 +29,11 @@
                         <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
                         <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Contact</a></li>
-                        <li>
+                        <!-- <li>
                         <form class="nav-item d-flex" role="search">
                             <input class="form-control me-2" type="search" placeholder="Search"> <button class="btn btn-outline-success" type="submit">Search</button>
                         </form>
-                        </li>
+                        </li> -->
                     </ul>
                 </div>
             </div>
@@ -84,7 +84,9 @@
                 </div>
                 <!-- Career Development-->
                 <div class="row gx-0 mb-5 mb-lg-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/growth.jpeg" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <img class="img-fluid" src="assets/growth.jpeg" alt="..." />
+                    </div>
                     <div class="col-lg-6">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -99,7 +101,40 @@
                 </div>
                 <!-- Events-->
                 <div class="row gx-0 justify-content-center">
-                    <div class="col-lg-6"><img class="img-fluid" src="assets/calendar.png" alt="..." /></div>
+                    <div class="col-lg-6">
+                        <!-- <img class="img-fluid" src="assets/calendar.png" alt="..." /> -->
+                        <div class="wrapper">
+                            <div class="container-calendar">
+                                <h3 id="monthAndYear"></h3>
+                                <div class="button-container-calendar">
+                                    <button id="previous" onclick="previous()">&#8249;</button>
+                                    <button id="next" onclick="next()">&#8250;</button>
+                                </div>
+                                <table class="table-calendar" id="calendar" data-lang="en">
+                                    <thead id="thead-month"></thead>
+                                    <tbody id="calendar-body"></tbody>
+                                </table>
+                                <div class="footer-container-calendar">
+                        <label for="month">Jump To: </label>
+                              <select id="month" onchange="jump()">
+                                         <option value=0>Jan</option>
+                                         <option value=1>Feb</option>
+                                         <option value=2>Mar</option>
+                                         <option value=3>Apr</option>
+                                         <option value=4>May</option>
+                                         <option value=5>Jun</option>
+                                         <option value=6>Jul</option>
+                                         <option value=7>Aug</option>
+                                         <option value=8>Sep</option>
+                                         <option value=9>Oct</option>
+                                         <option value=10>Nov</option>
+                                         <option value=11>Dec</option>
+                                     </select>
+                                     <select id="year" onchange="jump()"></select>       
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="col-lg-6 order-lg-first">
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
@@ -168,7 +203,7 @@
                                 <i class="fas fa-map-marked-alt text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Address</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50">4923 Market Street, Orlando FL</div>
+                                <div class="small text-black-50">Brigham Young University, Campus Dr, Provo, UT 84604</div>
                             </div>
                         </div>
                     </div>
@@ -178,7 +213,7 @@
                                 <i class="fas fa-envelope text-primary mb-2"></i>
                                 <h4 class="text-uppercase m-0">Email</h4>
                                 <hr class="my-4 mx-auto" />
-                                <div class="small text-black-50"><a href="#!">hello@yourdomain.com</a></div>
+                                <div class="small text-black-50"><a href="#!">MartinAndrew@gmail.com</a></div>
                             </div>
                         </div>
                     </div>
@@ -194,14 +229,18 @@
                     </div>
                 </div>
                 <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="#!"><i class="fab fa-twitter"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
-                    <a class="mx-2" href="#!"><i class="fab fa-github"></i></a>
+                    <a class="mx-2" href="https://www.instagram.com/brighamyounguniversity/?hl=en"><i class="fab fa-instagram"></i></a>
+                    <a class="mx-2" href="https://www.facebook.com/BYU/"><i class="fab fa-facebook-f"></i></a>
+                    <a class="mx-2" href="https://github.com/mheilner/startup.git"><i class="fab fa-github"></i></a>
                 </div>
             </div>
         </section>
         <!-- Footer-->
-        <footer class="footer bg-black small text-center text-white-50"><div class="container px-4 px-lg-5">Copyright &copy; MartinAndrewCo 2023</div></footer>
+        <footer class="footer bg-black small text-center text-white-50">
+            <div class="container px-4 px-lg-5">Copyright &copy; MartinAndrewCo 2023 | 
+                <a href="https://github.com/mheilner/startup.git">Mark Heilner GitHub</a>
+            </div>
+        </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
