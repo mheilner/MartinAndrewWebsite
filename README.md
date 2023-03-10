@@ -84,3 +84,8 @@ Simon JS
 -Integrating the document control from JS to html is very interesting. 
 -Need to have a source to the JS document to be able to reference the code in HTML 
 -No major effects on the CSS. Really JS mostly interacts in this project with HTML
+
+
+Javascript Deliberable
+-Adding the Javascript into the page added much more flow
+-Interactive Calendar. using a javascript base to be able to scroll and visualize what will happen overtime.

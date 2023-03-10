@@ -8,7 +8,7 @@ function filter_email_header($form_field) {
 
 $email_address  = filter_email_header($email_address);
 $headers = "From: $email_address";
-$sent = mail('you@domain.com', 'Feedback Form Submission', $feedback, $headers);
+$sent = mail('mark.heilner4@gmail.com', 'Feedback Form Submission', $headers);
 
 #Thank user or notify them of a problem
 if ($sent) {
@@ -38,3 +38,5 @@ if ($sent) {
     <?php
 }
 ?>
+
+<!-- https://www.lcn.com/support/articles/how-to-create-an-email-form-with-php/ -->
