@@ -89,3 +89,4 @@ Simon JS
 Javascript Deliberable
 -Adding the Javascript into the page added much more flow
 -Interactive Calendar. using a javascript base to be able to scroll and visualize what will happen overtime.
+-Using JS, PHP, HTML to add a place to send the emails that are subsribed for the email list newsletter
