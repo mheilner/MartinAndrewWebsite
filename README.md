@@ -90,3 +90,10 @@ Javascript Deliberable
 -Adding the Javascript into the page added much more flow
 -Interactive Calendar. using a javascript base to be able to scroll and visualize what will happen overtime.
 -Using JS, PHP, HTML to add a place to send the emails that are subsribed for the email list newsletter
+
+
+Simon Service 3/22:
+-This changes the front end web to a more backend server that logs the data
+-Create an index.js that can load the data that is needed - in this case the score data
+-TDD is effective with this becuase it allows for the use of testing that doesnt need a browser. Now that we have a server set up we can utilize this more easily.
+PM2 allows the server to keep running even when the browser terminates.
