@@ -97,3 +97,9 @@ Simon Service 3/22:
 -Create an index.js that can load the data that is needed - in this case the score data
 -TDD is effective with this becuase it allows for the use of testing that doesnt need a browser. Now that we have a server set up we can utilize this more easily.
 PM2 allows the server to keep running even when the browser terminates.
+
+
+Simon DB and Mongo
+-This is cool. The simon db helps us create a place for storage of the data on the websites
+-in the case of simon this is the highest score so when the server refreshes we still have the call to the highest data.
+-the mongo credentials are secret and shouldnt be given away simply. 
