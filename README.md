@@ -112,3 +112,11 @@ Simon Login
 - Run node main.js or press F5 in VS Code to start up the web service.
 
 - This offers a strong encryoption on the login for the simon. Actively stored with MONGo
+
+
+Simon Websocket
+- This is kind of unrelated to the websocket but I am adding it because I had the issues here. I accidentally saved my credentials for the mono db directly into the code without using the ssh so I fixed that with these steps - Save in the etc/env the creds then run - pm2 restart all --update-env
+pm2 save in the terminal to get the domain to reference it.
+
+-This is really cool becuase it allows for the people server and client to work peer to peer. 
+-run npm install ws to let the websocket work. The code in the peer.js in the simon explains the code.
