@@ -103,3 +103,12 @@ Simon DB and Mongo
 -This is cool. The simon db helps us create a place for storage of the data on the websites
 -in the case of simon this is the highest score so when the server refreshes we still have the call to the highest data.
 -the mongo credentials are secret and shouldnt be given away simply. 
+
+Simon Login
+- Run npm init -y to initial the project to work with node.js.
+
+- Run npm install express cookie-parser mongodb uuid bcrypt to install all of the packages we are going to use.
+
+- Run node main.js or press F5 in VS Code to start up the web service.
+
+- This offers a strong encryoption on the login for the simon. Actively stored with MONGo
