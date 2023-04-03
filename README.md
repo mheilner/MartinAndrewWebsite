@@ -123,3 +123,8 @@ UPDATES to WEBSOCKET
 React Reactivity
 - Super Powerful Parent-child dynamics. When updating the parent can push to the child
 - https://codepen.io/mheilner/pen/OJoKEwL?editors=0010
+
+React Tic Tac Toe
+- Can make interactive tiles
+- Board and Square is the parent child relation in this case.
+- Board function checks the state and switches between x and o. 
