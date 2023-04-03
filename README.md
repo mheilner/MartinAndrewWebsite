@@ -128,3 +128,4 @@ React Tic Tac Toe
 - Can make interactive tiles
 - Board and Square is the parent child relation in this case.
 - Board function checks the state and switches between x and o. 
+- https://codesandbox.io/s/tic-tac-toe-w1kh5m
