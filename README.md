@@ -106,9 +106,7 @@ Simon DB and Mongo
 
 Simon Login
 - Run npm init -y to initial the project to work with node.js.
-
 - Run npm install express cookie-parser mongodb uuid bcrypt to install all of the packages we are going to use.
-
 - Run node main.js or press F5 in VS Code to start up the web service.
 
 - This offers a strong encryoption on the login for the simon. Actively stored with MONGo
