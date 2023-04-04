@@ -12,7 +12,7 @@ const mongoose = require("mongoose")
 const authRoute = require("./routes/auth")
 const authUser = require("./routes/user")
 const authPost = require("./routes/posts")
-// const authCat = require("./routes/categories")
+const authCat = require("./routes/categories")
 
 //---- step : 1
 dotenv.config()
@@ -51,7 +51,7 @@ mongoose
 app.use("/auth", authRoute)
 app.use("/users", authUser)
 app.use("/posts", authPost)
-// app.use("/category", authCat)
+app.use("/category", authCat)
 
 // //---- step : 1.2
 app.listen("3000", () => {
