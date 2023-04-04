@@ -9,7 +9,7 @@ const mongoose = require("mongoose")
 // const path = require("path")
 
 // //---- step : 2.1
-// const authRoute = require("./routes/auth")
+const authRoute = require("./routes/auth")
 // const authUser = require("./routes/user")
 // const authPost = require("./routes/posts")
 // const authCat = require("./routes/categories")
@@ -17,7 +17,7 @@ const mongoose = require("mongoose")
 //---- step : 1
 dotenv.config()
 // //---- step : 2.2
-// app.use(express.json())
+app.use(express.json())
 // //---- step : 2.3 last ma file crate garne time
 // app.use("/images", express.static(path.join(__dirname, "/images")))
 
@@ -48,7 +48,7 @@ mongoose
 // })
 
 // //---- step : 2
-// app.use("/auth", authRoute)
+app.use("/auth", authRoute)
 // app.use("/users", authUser)
 // app.use("/posts", authPost)
 // app.use("/category", authCat)
