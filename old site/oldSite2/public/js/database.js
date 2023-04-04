@@ -16,3 +16,4 @@ const url = `mongodb+srv://${userName}:${password}@${hostname}`;
 // const userCollection = client.db('simon').collection('user');
 // const scoreCollection = client.db('simon').collection('score');
 
+// https://www.mongodb.com/developer/languages/javascript/node-connect-mongodb/
