@@ -11,7 +11,7 @@ const mongoose = require("mongoose")
 // //---- step : 2.1
 const authRoute = require("./routes/auth")
 const authUser = require("./routes/user")
-// const authPost = require("./routes/posts")
+const authPost = require("./routes/posts")
 // const authCat = require("./routes/categories")
 
 //---- step : 1
@@ -50,7 +50,7 @@ mongoose
 // //---- step : 2
 app.use("/auth", authRoute)
 app.use("/users", authUser)
-// app.use("/posts", authPost)
+app.use("/posts", authPost)
 // app.use("/category", authCat)
 
 // //---- step : 1.2
