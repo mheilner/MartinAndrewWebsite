@@ -54,6 +54,6 @@ app.use("/posts", authPost)
 app.use("/category", authCat)
 
 // //---- step : 1.2
-app.listen("3000", () => {
+app.listen("4000", () => {
   console.log("backend running...")
 })
