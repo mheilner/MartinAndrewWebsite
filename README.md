@@ -108,9 +108,7 @@ Simon Login
 - Run npm init -y to initial the project to work with node.js.
 - Run npm install express cookie-parser mongodb uuid bcrypt to install all of the packages we are going to use.
 - Run node main.js or press F5 in VS Code to start up the web service.
-
 - This offers a strong encryoption on the login for the simon. Actively stored with MONGo
-
 
 Simon Websocket
 - This is kind of unrelated to the websocket but I am adding it because I had the issues here. I accidentally saved my credentials for the mono db directly into the code without using the ssh so I fixed that with these steps - Save in the etc/env the creds then run - pm2 restart all --update-env
@@ -129,3 +127,17 @@ React Tic Tac Toe
 - Board and Square is the parent child relation in this case.
 - Board function checks the state and switches between x and o. 
 - https://codesandbox.io/s/tic-tac-toe-w1kh5m
+
+Plan for my Service Startup
+- copy index.js and database.js exactly into the code
+- look at the simon project, grab the login parts that have the fetch parts
+            you will have to be able to 
+            call the fetch when they click the login button
+- you can copy most of the websocket into the 
+    - copy the proxy.js
+    - add 2 lines that need to be added into index so it connects to websocket insteda of http
+    - go thru play.js to grab the client
+
+- fetch an api
+    look up articl api
+    get the url
