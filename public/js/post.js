@@ -1,4 +1,5 @@
 configureWebSocket()
+
 async function submitArticle() {
   const artTitle = document.querySelector('#title')?.value;
   const artBody = document.querySelector('#article')?.value;
@@ -14,7 +15,7 @@ async function submitArticle() {
 
   if (response?.status === 200) {
     console.log("It worked")
-    broadcastEvent(artTitle, Post, {});
+    broadcastEvent(artTitle, "Post", {});
     localStorage.setItem('title', artTitle);
     window.location.href = '../posts.html';
     
@@ -91,8 +92,9 @@ async function loadArticles() {
       };
       socket.onmessage = async (event) => {
         const msg = JSON.parse(await event.data.text());
-        if (msg.type === Post) {
-          displayMsg(msg.from, `scored has been posted!`);
+        console.log(msg);
+        if (msg.type === "Post") {
+          displayMsg(msg.from, ` has been posted!`);
         } else if (msg.type === GameStartEvent) {
           displayMsg('User', msg.from, `started a new game`);
         }

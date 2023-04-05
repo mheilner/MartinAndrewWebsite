@@ -144,8 +144,8 @@ Plan for my Service Startup
 What I want to do
 - Be able to write something and have it posted
 - make a call to display market data api
-
-
 Other Notes
 - call node index.js 
 - look at http://localhost:3000/ to interact locally before deployment
+THis uses both front end and backend functionality to make calls and work thru the webservice.
+- ALL FUNCTIONALOTY IS THERE ACCORDING TO TA BUT THE WEBSOCKET
