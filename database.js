@@ -14,7 +14,7 @@ const url = `mongodb+srv://${userName}:${password}@${hostname}`;
 
 const client = new MongoClient(url);
 const userCollection = client.db('simon').collection('user');
-const scoreCollection = client.db('simon').collection('score');
+const articleCollection = client.db('startup').collection('articles');
 
 function getUser(email) {
   return userCollection.findOne({ email: email });
@@ -43,17 +43,17 @@ async function createUser(email, password) {
 //instead of adding scores addArticle to pass the articl
 //instead of scoreCollection - articleCollection
 //instead of insertOne - add articlTitle and ArticleBody
-function addScore(score) {
-  scoreCollection.insertOne(score);
+function addArticle(article) {
+  articleCollection.insertOne(article);
 }
 
-function getHighScores() {
+function getArticles() {
   const query = {};
   const options = {
-    sort: { score: -1 },
+    sort: { date: -1 },
     limit: 10,
   };
-  const cursor = scoreCollection.find(query, options);
+  const cursor = articleCollection.find(query, options);
   return cursor.toArray();
 }
 
@@ -61,8 +61,8 @@ module.exports = {
   getUser,
   getUserByToken,
   createUser,
-  addScore,
-  getHighScores,
+  addArticle,
+  getArticles,
 };
 
 
