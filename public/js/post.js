@@ -1,4 +1,4 @@
-
+configureWebSocket()
 async function submitArticle() {
   const artTitle = document.querySelector('#title')?.value;
   const artBody = document.querySelector('#article')?.value;
@@ -14,6 +14,7 @@ async function submitArticle() {
 
   if (response?.status === 200) {
     console.log("It worked")
+    broadcastEvent(artTitle, Post, {});
     localStorage.setItem('title', artTitle);
     window.location.href = '../posts.html';
     
@@ -77,77 +78,43 @@ async function loadArticles() {
   }
   
   loadArticles();
+  
+    // Functionality for peer communication using WebSocket
+  async function configureWebSocket() {
+      const protocol = window.location.protocol === 'http:' ? 'ws' : 'wss';
+      socket = new WebSocket(`${protocol}://${window.location.host}/ws`);
+      socket.onopen = (event) => {
+        displayMsg('system', 'Session', 'connected');
+      };
+      socket.onclose = (event) => {
+        displayMsg('system', 'Session', 'disconnected');
+      };
+      socket.onmessage = async (event) => {
+        const msg = JSON.parse(await event.data.text());
+        if (msg.type === Post) {
+          displayMsg(msg.from, `scored has been posted!`);
+        } else if (msg.type === GameStartEvent) {
+          displayMsg('User', msg.from, `started a new game`);
+        }
+      };
+    }
+  
+    async function displayMsg(cls, from, msg) {
+      const chatText = document.querySelector('#player-messages');
+      chatText.innerHTML =
+        `<div class="event"><span class="${cls}-event">${from}</span> ${msg}</div>` + chatText.innerHTML;
+    }
+  
+    async function broadcastEvent(from, type, value) {
+      const event = {
+        from: from,
+        type: type,
+        value: value,
+      };
+      socket.send(JSON.stringify(event));
+    }
 
-
-  // class Game {
-  //   socket;
-  
-  //   constructor() {
-  
-  //     const playerNameEl = document.querySelector('.player-name');
-  //     playerNameEl.textContent = this.getPlayerName();
-  
-  //     this.configureWebSocket();
-  //   }
-
-  
-  //   getPlayerName() {
-  //     return localStorage.getItem('userName') ?? 'Mystery player';
-  //   }
-  //   // Functionality for peer communication using WebSocket
-  //   configureWebSocket() {
-  //     const protocol = window.location.protocol === 'http:' ? 'ws' : 'wss';
-  //     this.socket = new WebSocket(`${protocol}://${window.location.host}/ws`);
-  //     this.socket.onopen = (event) => {
-  //       this.displayMsg('system', 'game', 'connected');
-  //     };
-  //     this.socket.onclose = (event) => {
-  //       this.displayMsg('system', 'game', 'disconnected');
-  //     };
-  //     this.socket.onmessage = async (event) => {
-  //       const msg = JSON.parse(await event.data.text());
-  //       if (msg.type === GameEndEvent) {
-  //         this.displayMsg('player', msg.from, `scored ${msg.value.score}`);
-  //       } else if (msg.type === GameStartEvent) {
-  //         this.displayMsg('player', msg.from, `started a new game`);
-  //       }
-  //     };
-  //   }
-  
-    // displayMsg(cls, from, msg) {
-    //   const chatText = document.querySelector('#player-messages');
-    //   chatText.innerHTML =
-    //     `<div class="event"><span class="${cls}-event">${from}</span> ${msg}</div>` + chatText.innerHTML;
-    // }
-  
-  //   broadcastEvent(from, type, value) {
-  //     const event = {
-  //       from: from,
-  //       type: type,
-  //       value: value,
-  //     };
-  //     this.socket.send(JSON.stringify(event));
-  //   }
-  // }
-  
-  // const game = new Game();
-  
-  
-  // const socket = new WebSocket('ws://localhost:4000');
-
-  // socket.addEventListener('open', (event) => {
-  //   console.log('Connected to server');
-  // });
-  
-  // socket.addEventListener('message', (event) => {
-  //   console.log(`Received message: ${event.data}`);
-  // });
-  
-  // socket.addEventListener('close', (event) => {
-  //   console.log('Disconnected from server');
-  // });
-  
-  // function sendMessage(message) {
-  //   socket.send(message);
-  // }
-  
+    async function getPlayerName() {
+      return localStorage.getItem('userName') ?? 'Mystery player';
+    }
+   
