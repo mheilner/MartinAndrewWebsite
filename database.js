@@ -38,6 +38,11 @@ async function createUser(email, password) {
   return user;
 }
 
+
+///add a few new api router calls and new functions to h
+//instead of adding scores addArticle to pass the articl
+//instead of scoreCollection - articleCollection
+//instead of insertOne - add articlTitle and ArticleBody
 function addScore(score) {
   scoreCollection.insertOne(score);
 }
@@ -59,3 +64,5 @@ module.exports = {
   addScore,
   getHighScores,
 };
+
+

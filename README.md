@@ -128,6 +128,9 @@ React Tic Tac Toe
 - Board function checks the state and switches between x and o. 
 - https://codesandbox.io/s/tic-tac-toe-w1kh5m
 
+
+
+SERVICE STARTUP
 Plan for my Service Startup
 - copy index.js and database.js exactly into the code
 - look at the simon project, grab the login parts that have the fetch parts
@@ -137,7 +140,12 @@ Plan for my Service Startup
     - copy the proxy.js
     - add 2 lines that need to be added into index so it connects to websocket insteda of http
     - go thru play.js to grab the client
+- fetch an api, look up articl api, get the url
+What I want to do
+- Be able to write something and have it posted
+- make a call to display market data api
 
-- fetch an api
-    look up articl api
-    get the url
+
+Other Notes
+- call node index.js 
+- look at http://localhost:3000/ to interact locally before deployment
