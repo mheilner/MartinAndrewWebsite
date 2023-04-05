@@ -17,7 +17,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 // Serve up the applications static content
-app.use(express.static('public'));
+app.use(express.static('./'));
 
 // Router for service endpoints
 var apiRouter = express.Router();
@@ -103,7 +103,7 @@ app.use(function (err, req, res, next) {
 
 // Return the application's default page if the path is unknown
 app.use((_req, res) => {
-  res.sendFile('index.html', { root: 'public' });
+  res.sendFile('index.html', { root: './' });
 });
 
 // setAuthCookie in the HTTP response

@@ -40,7 +40,7 @@ async function loginOrCreate(endpoint) {
 
   if (response?.status === 200) {
     localStorage.setItem('userName', userName);
-    window.location.href = '../index.html';
+    window.location.href = '../posts.html';
   } else {
     const modalEl = document.querySelector('#msgModal');
     modalEl.querySelector('.modal-body').textContent = `⚠ Error: ${body.msg}`;
@@ -50,7 +50,7 @@ async function loginOrCreate(endpoint) {
 }
 
 function play() {
-  window.location.href = '../index.html';
+  window.location.href = '../posts.html';
 }
 
 function logout() {
