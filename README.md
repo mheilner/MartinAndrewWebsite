@@ -149,3 +149,7 @@ Other Notes
 - look at http://localhost:3000/ to interact locally before deployment
 THis uses both front end and backend functionality to make calls and work thru the webservice.
 - ALL FUNCTIONALOTY IS THERE ACCORDING TO TA BUT THE WEBSOCKET
+
+
+React CLI
+- This morning I was discussing the power of react with another student. I think it is so cool that you are able to import the different sections that you want and basically able to keep the development redundant proof. It really simplifies the code.
