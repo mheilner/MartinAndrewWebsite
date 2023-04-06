@@ -153,3 +153,7 @@ THis uses both front end and backend functionality to make calls and work thru t
 
 React CLI
 - This morning I was discussing the power of react with another student. I think it is so cool that you are able to import the different sections that you want and basically able to keep the development redundant proof. It really simplifies the code.
+
+React Router
+- This react functionality allows for lots of customization and is readily available to be able to replicate page to page. This is like bootstrap 2.0. I think that it is interesting that most of the functionality comes within the Javascript.
+- https://codepen.io/mheilner/pen/OJBJoVR?editors=0110
