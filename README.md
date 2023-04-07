@@ -159,6 +159,10 @@ React Router
 - https://codepen.io/mheilner/pen/OJBJoVR?editors=0110
 
 Simon React
+- install the react-bootstrap this will help in the local testing
+- Below are the steps to change my current files into the react version.
+- pretty intuitive
+
 THIS IS THE STEP FOR CONVERTING THE APPLICATION TO THE REACT VERSION
 - ⭐ Reorganize Simon
 - Commit: Commit this version in Git as the starting place for the conversion to React. It won't run, but by committing at this point can revert if necessary, instead of starting over. Make sure you keep testing and committing throughout this process.
