@@ -157,3 +157,26 @@ React CLI
 React Router
 - This react functionality allows for lots of customization and is readily available to be able to replicate page to page. This is like bootstrap 2.0. I think that it is interesting that most of the functionality comes within the Javascript.
 - https://codepen.io/mheilner/pen/OJBJoVR?editors=0110
+
+Simon React
+THIS IS THE STEP FOR CONVERTING THE APPLICATION TO THE REACT VERSION
+- ⭐ Reorganize Simon
+- Commit: Commit this version in Git as the starting place for the conversion to React. It won't run, but by committing at this point can revert if necessary, instead of starting over. Make sure you keep testing and committing throughout this process.
+- Create template React application. Run npx create-react-app template-react. This creates a new directory named template-react that contains the basic configuration and template React application code.
+- Clean up template code
+- Uninstall and NPM packages you won't use (e.g. stats, test)
+- Delete the unnecessary create-react-app files (e.g. images)
+- Rename js JSX files have jsx extension
+- Replace the favicon.ico with the Simon icon
+- Update manifest.json to represent Simon
+- Clean up the index.html file to have the proper fields for Simon
+- ⭐ Move template files to Simon
+- ⭐ Convert to React Bootstrap
+- ⭐ Populate App.jsx
+- ⭐ Create view components
+- ⭐ Create the router
+- ⭐ Convert to React components
+- ⭐ Set up to debug
+- Refactor play.jsx into simonGame.jsx, simonButton.jsx, and players.jsx
+- Refactor components to take advantage of React specific functionality and to create sub-components
+- Move webSocket code from play.jsx to gameNotifier.js
