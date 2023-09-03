@@ -15,12 +15,12 @@ Do you ever feel overwhelmed with the prospect of careers and what follows an al
 - **Interviews and Podcasts**: Gain knowledge from seasoned individuals.
 - **Mentorship Platform**: Connect with mentors to boost your skills.
 - **Multi-Page Interface**: Seamlessly navigate through our content.
-
+ <!--- This part is inactive currently
 ## AWS Infrastructure
 - **Server IP**: [http://18.224.198.116/](http://18.224.198.116/)
   - **SSH Command**: `ssh -i C:\Users\markh\Downloads\[pem] ubuntu@[ip]`
 - **Domain**: [martinandrew.org](http://martinandrew.org)
-
+just ---> 
 ## HTTPS and Web Certificates
 We've prioritized website security by implementing HTTPS. This crucial update ensures your data's safety and accessibility.
 
